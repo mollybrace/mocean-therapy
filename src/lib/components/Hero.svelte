@@ -1,5 +1,4 @@
 <script>
-    import image from "../../../src/image.png"
 </script>
 
 

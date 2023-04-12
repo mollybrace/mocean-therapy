@@ -9,6 +9,7 @@
 
   <style lang="postcss">
     :global(html) {
-      background-color: theme(colors.gray.100);
+      background-color: #d4e2ee;
+      overflow: scroll;
     }
   </style>
