@@ -4,24 +4,16 @@
 </script>
 
 
-<div class="container">
-        <h1 class="text-container">
-           Welcome to M'ocean Hypnotherapy
-            <br>
-            For when it all comes crashing down!
+<div class="container h-40 bg-[#7c99bb] text-3xl text-center">
+        <h1 class="text-container pt-12">
+           Welcome to Mocean Hypnotherapy
           </h1>
       
 </div>
 
 <style>
-    .container {
-        min-height: 200px;
-        background-color: #7c99bb;
-    }
+  
     .text-container {
-        text-align: center;
-        font-size: xx-large;
         color: #F9EAE1;
-        padding: 70px 0;
     }
 </style>

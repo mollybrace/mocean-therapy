@@ -2,16 +2,27 @@
 </script>
 
 
-<div class="hero flex flex-col justify-center">
-    <div class="container px-4 h-100">
-</div>
+<div class="relative h-1000 md:h-96 m-0 w-screen overflow-hidden bg-indigo-500">
+    <img
+    alt="A beach at sunset"
+    class="object-cover h-full min-w-full"
+    src="/src/beach-image.jpg"
+  />
+  </div>
+  <div class="head-text-container max-h-12">
+ 
 </div>
 
 <style>
     .hero {
         min-height: 580px;
-        padding-top: 5px;
         position: relative;
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(255, 0, 150, 0)), url("/src/image.png");
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(255, 0, 150, 0)), url("/src/beach-image.jpg");
+    }
+    .head-text-container {
+        background-color: #c1c7df;
+        height: 75px;
+        font-size: xx-large;
+        color: #708aa7;
     }
 </style>

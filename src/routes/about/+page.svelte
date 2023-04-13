@@ -8,7 +8,6 @@
     <div>
         <div class="flex justify-center pt-4" >
             <img 
-            class="scale-50 justify-center "
             src="/src/head-image.jpg" 
             alt="a strange man eating a carrot">
         </div>
