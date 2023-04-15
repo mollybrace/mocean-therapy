@@ -1,5 +1,5 @@
 
-    <div class="footer h-28 flex flex-col md:flex-col">
+    <div class="footer h-28 flex w-100% flex-col md:flex-col">
         <div class="box-container h-28 text-center pt-5">
             <h1 class="font-bold">Get in touch</h1>
             <p>Email:</p>

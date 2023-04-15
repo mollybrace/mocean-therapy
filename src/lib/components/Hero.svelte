@@ -1,4 +1,5 @@
 <script>
+        const urlParams = new URLSearchParams(window.location.search);
 </script>
 
 
@@ -10,7 +11,7 @@
   />
   </div>
   <div class="head-text-container max-h-12">
- 
+    <h1>{urlParams}</h1>
 </div>
 
 <style>

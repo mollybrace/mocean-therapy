@@ -1,6 +1,7 @@
 
 <script>
     import AboutHeader from "./components/AboutHeader.svelte";
+    import Footer from "../../lib/components/Footer.svelte";
 </script>
 
 <div>
@@ -17,7 +18,7 @@
         
 
     </div>
-
+    <Footer />
 </div>
 
 <style>

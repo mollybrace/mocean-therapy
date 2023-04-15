@@ -1,10 +1,7 @@
 
 
 <div>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias reiciendis laudantium esse laboriosam dolores, doloribus iure quod numquam dolore voluptates!
-    Odit assumenda repellendus praesentium veritatis esse, itaque laborum consequatur amet, sunt quasi, nesciunt eveniet pariatur quis ducimus dolor rem tempora.
-    Architecto vero voluptate animi iste eos molestias! Inventore ab, facere ipsam magni tempore eveniet, delectus laborum, error aliquid impedit necessitatibus?
-    A error eaque quo enim cupiditate minima itaque autem corporis. Officia, itaque. Cumque error quaerat totam ab amet doloribus maxime.
+    enim cupiditate minima itaque autem corporis. Officia, itaque. Cumque error quaerat totam ab amet doloribus maxime.
     Nihil, quos nam officiis maxime suscipit repellat atque dolorem rem dolorum sequi vitae, sint quia ea perspiciatis quod reiciendis accusantium!
     Nemo facilis ut hic quas, labore officia deleniti laborum iusto ex repudiandae corporis impedit debitis aliquam saepe necessitatibus, non ea!
     Mollitia eius perspiciatis quia dolores asperiores quidem quam
@@ -18,3 +15,13 @@
     Sint incidunt magnam blanditiis repellendus nisi qui laboriosam reiciendis tenetur atque eaque in aspernatur quam, ea similique delectus molestias adipisci?
     Quis suscipit velit perspiciatis cupiditate, iusto corporis temporibus eveniet error mollitia? Aliquam nisi dolores totam nobis eveniet id soluta esse!
 </div>
+
+
+<style>
+  div {
+    color: #7c99bb;
+    font-family: sans-serif 
+  }
+
+
+</style>
