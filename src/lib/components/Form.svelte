@@ -1,36 +1,56 @@
 <script>
+import emailjs from "@emailjs/browser"
+import Footer from "./Footer.svelte";
 
 
+
+function sendEmail(event) {
+    emailjs.sendForm('service_sa68flb', 'template_uriwvbb', event.target, 'NXMUCg8dkjdu3Rpe_')
+    .then((result) => {
+        console.log('SUCCESS!', result.text);
+        console.log(result.text)
+      }, (error) => {
+          console.log('FAILED...', error.text);
+      });
+    }
+    
 </script>
+
+
 <div class="pt-20">
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magni dicta, cupiditate atque excepturi enim quo fugiat cum odit veritatis?
-Consectetur, praesentium maiores, laboriosam eos saepe repellat molestiae ratione dicta dolorem dolore quasi, aspernatur fugiat ipsam hic quaerat pariatur possimus.
-Quis in, nam unde aliquam iure error corrupti incidunt velit autem voluptatibus, voluptate cum, id aperiam reprehenderit deserunt rem maiores!
-Illo ad quasi labore iure aliquam iste vitae quisquam deserunt id, quidem eius eos voluptatibus modi ipsum incidunt eum voluptatem?
-Quo laudantium sapiente dolore id, libero laborum? Cumque porro magnam, rem omnis totam fuga vitae quisquam officiis reiciendis, temporibus saepe.
-</p>    
+<p>  You can contact me on the below form and I will get back to you as soon as possible.
+</p>
+
+<p>Or you can schedule a free call with me here.</p>
 </div>
 <div>
-    <form class="pt-20">
-        <label for="full-name">Name:</label>
+    <form class="pt-20" on:submit={sendEmail}>
+        <label for="user_name">Name:</label>
         <br>
         <input
-        id="full-name" 
+        id="user_name" 
+        name="user_name"
         type="text"/>
         <br>
         <label for="email">Email:</label>
         <br>
         <input
         id="email"
-        type="text"/>
+        type="email"
+        name="user_email"/>
         <br>
         <label for="message">Message:</label>
         <br>
         <textarea
-        rows="10" cols="100"
-        id="message"/> 
+        rows="10" cols="20"
+        id="message"
+        name="message"
+        /> 
         <br>
-        
-        <button>Submit</button>
+        <button type="submit" value="Send">Submit</button>
     </form>
+</div>
+
+<div>
+    <Footer />
 </div>

@@ -1,8 +1,5 @@
 <script>
-
-
 </script>
-
 
 <div class="container h-40 bg-[#7c99bb] text-3xl text-center">
         <h1 class="text-container pt-12">
