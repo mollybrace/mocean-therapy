@@ -7,8 +7,9 @@
 <div>
     <AboutHeader />
     <div>
-        <div class="flex justify-center pt-4" >
+        <div class="flex justify-right" >
             <img 
+            class="scale-50"
             src="/src/head-image.jpg" 
             alt="a strange man eating a carrot">
         </div>

@@ -3,12 +3,12 @@
     import Header from "../lib/components/Header.svelte";
     import Footer from "../lib/components/Footer.svelte";
   import MainContent from "$lib/components/MainContent.svelte";
+  import AboutByte from "$lib/components/AboutByte.svelte";
   </script>
 
      <Hero /> 
      <Header />
-     <MainContent />
-     <Footer />
+     <AboutByte />
 
 
   <style lang="postcss">
