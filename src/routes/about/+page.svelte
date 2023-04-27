@@ -4,25 +4,28 @@
     import Footer from "../../lib/components/Footer.svelte";
 </script>
 
-<div>
+<div class="about-page">
     <AboutHeader />
-    <div>
-        <div class="flex justify-right" >
-            <img 
-            class="scale-50"
-            src="/src/head-image.jpg" 
-            alt="a strange man eating a carrot">
-        </div>
-        <div class="justify-center">
-            <h1> I'm Oisin! Lover of therapising people and carrots!</h1>
-        </div>
+
+    <div class="container flex flex-col md:flex-row items-center px-6 mx-auto pb-10 mt-10 space-y-0 md:space-y-0">
+        <img class=""
+        src="/src/head-image.jpg" alt="a strange man eating carrots" />
+        <p class="pl-10 max-w-sm flex text-center md:text-right">I am Oisin and I like carrots. I eat carrots day and night. Do you like eating carrots too? </p>
+      </div>
+    
+
         
 
-    </div>
     <Footer />
 </div>
 
 <style>
+
+.about-page {
+        overflow: scroll;
+    }
+
+
     /* .text-container {
         padding-top: 300px;
         background-color: #c1c7df;

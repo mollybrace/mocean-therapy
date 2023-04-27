@@ -1,8 +1,8 @@
 <script>
 </script>
 
-<div class="container h-40 bg-[#7c99bb] text-3xl text-center">
-        <h1 class="text-container pt-12">
+<div class="flex h-40 bg-[#7c99bb] w-auto">
+        <h1 class="text-container text-center text-3xl w-screen pt-12">
            Welcome to Mocean Hypnotherapy
           </h1>
       

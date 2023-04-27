@@ -4,11 +4,14 @@
     import Footer from "../lib/components/Footer.svelte";
   import MainContent from "$lib/components/MainContent.svelte";
   import AboutByte from "$lib/components/AboutByte.svelte";
+  import Testimonials from "../lib/components/Testimonials.svelte"
   </script>
 
      <Hero /> 
      <Header />
-     <AboutByte />
+     <MainContent />
+     <Testimonials />
+     <Footer />
 
 
   <style lang="postcss">

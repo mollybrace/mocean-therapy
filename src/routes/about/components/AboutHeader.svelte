@@ -13,7 +13,7 @@
     
 </div>     
 <div class="head-text-container max-h-12">
-    <h1>About Me</h1>
+    <h1>About Me..</h1>
 </div>
 
 

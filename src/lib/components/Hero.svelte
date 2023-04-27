@@ -1,6 +1,5 @@
 <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        console.log(urlParams)
+      
 </script>
 
 
@@ -11,12 +10,11 @@
     src="/src/beach-image.jpg"
   />
   </div>
-  <div class="head-text-container max-h-12">
-    <h1>{urlParams}</h1>
+  <div class="head-text-container relative  m-0 p-0 mx-automax-h-12">
 </div>
 
 <style>
-    .hero {
+hero {
         min-height: 580px;
         position: relative;
         background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(255, 0, 150, 0)), url("/src/beach-image.jpg");
