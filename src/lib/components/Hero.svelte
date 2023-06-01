@@ -7,7 +7,7 @@
     <img
     alt="A beach at sunset"
     class="object-cover h-full min-w-full"
-    src="/src/beach-image.jpg"
+    src="/beach-image.jpg"
   />
   </div>
   <div class="head-text-container relative  m-0 p-0 mx-automax-h-12">
@@ -17,7 +17,7 @@
 hero {
         min-height: 580px;
         position: relative;
-        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(255, 0, 150, 0)), url("/src/beach-image.jpg");
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(255, 0, 150, 0)), url("/beach-image.jpg");
     }
     .head-text-container {
         background-color: #c1c7df;

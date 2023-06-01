@@ -7,7 +7,7 @@
     <img
     alt="A beach at sunset"
     class="object-cover h-full min-w-full"
-    src="/src/beach-image.jpg"
+    src="/beach-image.jpg"
   />
     
     
