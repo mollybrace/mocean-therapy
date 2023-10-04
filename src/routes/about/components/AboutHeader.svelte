@@ -5,10 +5,10 @@
 
 <div class="relative h-64 md:h-96 m-0 w-screen overflow-hidden bg-indigo-500">
     <img
-    alt="A beach at sunset"
-    class="object-cover h-full min-w-full"
-    src="/beach-image.jpg"
-  />
+        alt="A beach at sunset"
+        class="object-cover h-full min-w-full"
+        src="/beach-image.jpg"
+    />
     
     
 </div>     
@@ -18,7 +18,6 @@
 
 
 <style>
-    
     .head-text-container {
         background-color: #c1c7df;
         height: 75px;
